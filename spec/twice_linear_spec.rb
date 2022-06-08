@@ -34,4 +34,12 @@ describe TwiceLinear do
 		
 	end
 
+	it "returns 22 for 10" do 
+
+		subject = TwiceLinear.new
+
+		expect(subject.execute(10)).to eq 22
+		
+	end
+
 end

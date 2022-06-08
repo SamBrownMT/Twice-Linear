@@ -4,13 +4,13 @@ class TwiceLinear
 		u = [1]
 
 		i = 0
-		2.times do 
+		(n/2 + 1).times do 
 			u.push(u[i] * 2 + 1)
 			u.push(u[i] * 3 + 1)
 			i += 1
 		end
 
-		return u[n]
+		return u.sort[n]
 	end
 
 end
