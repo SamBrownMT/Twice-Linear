@@ -10,4 +10,20 @@ describe TwiceLinear do
 		
 	end
 
+	it "returns 3 for 1" do 
+
+		subject = TwiceLinear.new
+
+		expect(subject.execute(1)).to eq 3
+		
+	end
+
+	it "returns 4 for 2" do 
+
+		subject = TwiceLinear.new
+
+		expect(subject.execute(2)).to eq 4
+		
+	end
+
 end
